@@ -9,7 +9,7 @@ public class SumDigit {
             return -1;
         }
 
-        while (number > 10) {
+        while (number > 0) {
             sum += number % 10;
             number /= 10;
         }
