@@ -13,6 +13,12 @@ public class Application {
         System.out.println("Soma dos números impares entre 100 e 1000 " + SumOdd.sumOdd(100,1000));
 
         System.out.println("Soma digitos do número 125 que é " + SumDigit.sum(125));
+
+        System.out.println("O número 1221 " + Palindromo.isPalindrome(1221));
+        System.out.println("O número 707 " + Palindromo.isPalindrome(707));
+        System.out.println("O número 1212 " + Palindromo.isPalindrome(1212));
+//        System.out.println("O número 1221 " + Palindromo.isPalindrome(1221));
+
     }
 }
 

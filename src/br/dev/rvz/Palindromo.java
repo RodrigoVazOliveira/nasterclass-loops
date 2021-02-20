@@ -4,7 +4,7 @@ public class Palindromo {
     public static boolean isPalindrome(int number) {
         int revertido = numeroRevertido(number);
         if (number == revertido) {
-            true;
+            return true;
         }
         return false;
     }
