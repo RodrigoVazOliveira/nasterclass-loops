@@ -11,6 +11,8 @@ public class Application {
         System.out.println("Soma dos números impares entre 13 e 13 " + SumOdd.sumOdd(13,13));
         System.out.println("Soma dos números impares entre 100 e -100 " + SumOdd.sumOdd(100,-100));
         System.out.println("Soma dos números impares entre 100 e 1000 " + SumOdd.sumOdd(100,1000));
+
+        System.out.println("Soma digitos do número 125 que é " + SumDigit.sum(125));
     }
 }
 
