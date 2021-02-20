@@ -20,9 +20,11 @@ public class SumForThreeAndFive {
     }
 
     public static int sumNumbers() {
-        for (int i = 0; i < 1000; i++) {
+        int count = 0;
+        for (int i = 0; i < 1000 && count < 6; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 sum += i;
+                count += 1;
             } else {
                 numbers.add(i);
             }
