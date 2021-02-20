@@ -19,7 +19,7 @@ public class SumOdd {
             return -1;
         }
 
-        for (int i = start; i < end; i++) {
+        for (int i = start; i <= end; i++) {
             if (isOdd(i)) {
                 sum += i;
             }
