@@ -19,6 +19,18 @@ public class Application {
         System.out.println("O número 1212 " + Palindromo.isPalindrome(1212));
         System.out.println("O número -222 " + Palindromo.isPalindrome(-222));
 
+        System.out.println("A soma do primeiro e segundo digito do número 252 e "
+                + SumDigit.sumFirstAndLastDigit(252));
+        System.out.println("A soma do primeiro e segundo digito do número 257 e "
+                + SumDigit.sumFirstAndLastDigit(257));
+        System.out.println("A soma do primeiro e segundo digito do número 0 e "
+                + SumDigit.sumFirstAndLastDigit(0));
+        System.out.println("A soma do primeiro e segundo digito do número 5 e "
+                + SumDigit.sumFirstAndLastDigit(5));
+        System.out.println("A soma do primeiro e segundo digito do número -1 e "
+                + SumDigit.sumFirstAndLastDigit(-1));
+        System.out.println("A soma do primeiro e segundo digito do número 2132121321 e "
+                + SumDigit.sumFirstAndLastDigit(2132121321));
     }
 }
 
