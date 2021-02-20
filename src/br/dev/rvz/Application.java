@@ -17,7 +17,7 @@ public class Application {
         System.out.println("O número 1221 " + Palindromo.isPalindrome(1221));
         System.out.println("O número 707 " + Palindromo.isPalindrome(707));
         System.out.println("O número 1212 " + Palindromo.isPalindrome(1212));
-//        System.out.println("O número 1221 " + Palindromo.isPalindrome(1221));
+        System.out.println("O número -222 " + Palindromo.isPalindrome(-222));
 
     }
 }
