@@ -10,4 +10,15 @@ public class SumForThreeAndFive {
     public static List<Integer> getNumbers() {
         return numbers;
     }
+
+    public static int sumNumbers() {
+        for (int i = 0; i < 1000; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                sum += i;
+            } else {
+                numbers.add(i);
+            }
+        }
+        return sum;
+    }
 }
