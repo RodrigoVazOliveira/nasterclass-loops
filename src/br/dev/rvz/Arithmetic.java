@@ -40,4 +40,13 @@ public class Arithmetic {
         }
         return false;
     }
+
+    public static int reverse(int number) {
+        int revertido;
+        while(number > 0) {
+            revertido = (revertido * 10) + (number % 10);
+            number /= 10;
+        }
+        return revertido;
+    }
 }
