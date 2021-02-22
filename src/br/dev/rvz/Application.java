@@ -62,6 +62,10 @@ public class Application {
         System.out.println("GDC DE 9 E 10 = " + Arithmetic.getGreatestCommonDivisor(9, 10));
         System.out.println("GDC DE 81 E 153 = " + Arithmetic.getGreatestCommonDivisor(81, 153));
 
+        Arithmetic.printFactors(6);
+        Arithmetic.printFactors(32);
+        Arithmetic.printFactors(10);
+        Arithmetic.printFactors(-1);
     }
 }
 
