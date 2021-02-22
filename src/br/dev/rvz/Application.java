@@ -46,6 +46,12 @@ public class Application {
         System.out.println("SharedDigit numbers 15 and 55: "
                 + SharedDigit.hasSharedDigit(15, 55));
 
+        System.out.println("Teste para ver se último digito e igual: 41, 22, 71 "
+                + SumDigit.hasSameLastDigit(41, 22, 71));
+        System.out.println("Teste para ver se último digito e igual: 23, 32, 42 "
+                + SumDigit.hasSameLastDigit(23, 32, 42));
+        System.out.println("Teste para ver se último digito e igual: 9, 99, 999 "
+                + SumDigit.hasSameLastDigit(9, 99, 999));
     }
 }
 
