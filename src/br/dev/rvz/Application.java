@@ -31,6 +31,13 @@ public class Application {
                 + SumDigit.sumFirstAndLastDigit(-1));
         System.out.println("A soma do primeiro e segundo digito do número 2132121321 e "
                 + SumDigit.sumFirstAndLastDigit(2132121321));
+
+        System.out.println("Somar digitos pares do numero 123456789 e " +
+                SumDigit.getEvenDigitSum(123456789));
+        System.out.println("Somar digitos pares do numero 252 e " +
+                SumDigit.getEvenDigitSum(252));
+        System.out.println("Somar digitos pares do numero -22 e " +
+                SumDigit.getEvenDigitSum(-22));
     }
 }
 
