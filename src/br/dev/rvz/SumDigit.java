@@ -72,10 +72,10 @@ public class SumDigit {
         return false;
     }
 
-    public static boolean isVAlid(int number) {
+    public static boolean isValid(int number) {
         if (number < 10 || number > 1000) {
             return false;
         }
-        return false;
+        return true;
     }
 }
