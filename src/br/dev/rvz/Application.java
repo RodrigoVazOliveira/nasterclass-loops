@@ -56,6 +56,12 @@ public class Application {
         System.out.println("O número 10 é valido: " + SumDigit.isValid(10));
         System.out.println("O número 468 é valido: " + SumDigit.isValid(468));
         System.out.println("O número 1001 é valido: " + SumDigit.isValid(1001));
+
+        System.out.println("GDC DE 12 E 30 = " + Arithmetic.getGreatestCommonDivisor(12, 30));
+        System.out.println("GDC DE 25 E 15 = " + Arithmetic.getGreatestCommonDivisor(25, 15));
+        System.out.println("GDC DE 9 E 10 = " + Arithmetic.getGreatestCommonDivisor(9, 10));
+        System.out.println("GDC DE 81 E 153 = " + Arithmetic.getGreatestCommonDivisor(81, 153));
+
     }
 }
 
