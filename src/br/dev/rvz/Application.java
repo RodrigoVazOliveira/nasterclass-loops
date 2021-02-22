@@ -52,6 +52,10 @@ public class Application {
                 + SumDigit.hasSameLastDigit(23, 32, 42));
         System.out.println("Teste para ver se último digito e igual: 9, 99, 999 "
                 + SumDigit.hasSameLastDigit(9, 99, 999));
+
+        System.out.println("O número 10 é valido: " + SumDigit.isValid(10));
+        System.out.println("O número 468 é valido: " + SumDigit.isValid(468));
+        System.out.println("O número 1001 é valido: " + SumDigit.isValid(1001));
     }
 }
 
