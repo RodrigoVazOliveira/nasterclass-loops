@@ -68,4 +68,3 @@ public class Application {
         Arithmetic.printFactors(-1);
     }
 }
-
