@@ -57,5 +57,18 @@ public class SumDigit {
         return sum;
     }
 
+    public static boolean hasSameLastDigit(int numberOne, int numberTwo, int numberThree) {
+        if (numberOne < 10 || numberOne > 1000
+                || numberTwo < 10 || numberTwo > 1000
+                || numberThree < 10 || numberThree > 1000) {
+            return false;
+        }
 
+        int[] digits  = {numberOne % 10, numberTwo % 10, numberThree % 10};
+
+        if (digits[0] == digits[1] || digits[0] == digits[2] || digits[1] == digits[3]) {
+            return true;
+        }
+        return false;
+    }
 }
