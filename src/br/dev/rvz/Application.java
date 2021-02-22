@@ -38,6 +38,14 @@ public class Application {
                 SumDigit.getEvenDigitSum(252));
         System.out.println("Somar digitos pares do numero -22 e " +
                 SumDigit.getEvenDigitSum(-22));
+
+        System.out.println("SharedDigit numbers 12 and 23: "
+                + SharedDigit.hasSharedDigit(12, 23));
+        System.out.println("SharedDigit numbers 9 and 99: "
+                + SharedDigit.hasSharedDigit(9, 99));
+        System.out.println("SharedDigit numbers 15 and 55: "
+                + SharedDigit.hasSharedDigit(15, 55));
+
     }
 }
 
