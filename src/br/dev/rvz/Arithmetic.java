@@ -16,7 +16,7 @@ public class Arithmetic {
     }
 
     public static void printFactors(int number) {
-        if (number >= 1) {
+        if (number >=    1) {
             for( int i = 1; i <= number; i++) {
                 if (number % i == 0) {
                     System.out.print(i + " ");
@@ -28,4 +28,16 @@ public class Arithmetic {
         }
     }
 
+    public static boolean isPerfectNumber(int number) {
+        int sum = 0;
+        if (number >=    1) {
+            for( int i = 1; i < number; i++) {
+                if (number % i == 0) {
+                    sum += i;
+                }
+            }
+            return sum == number;
+        }
+        return false;
+    }
 }
