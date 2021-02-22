@@ -66,7 +66,7 @@ public class SumDigit {
 
         int[] digits  = {numberOne % 10, numberTwo % 10, numberThree % 10};
 
-        if (digits[0] == digits[1] || digits[0] == digits[2] || digits[1] == digits[3]) {
+        if (digits[0] == digits[1] || digits[0] == digits[2] || digits[1] == digits[2]) {
             return true;
         }
         return false;
