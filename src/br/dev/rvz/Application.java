@@ -66,5 +66,10 @@ public class Application {
         Arithmetic.printFactors(32);
         Arithmetic.printFactors(10);
         Arithmetic.printFactors(-1);
+
+        System.out.println("Perfect number 6 = " + Arithmetic.isPerfectNumber(6));
+        System.out.println("Perfect number 28 = " + Arithmetic.isPerfectNumber(28));
+        System.out.println("Perfect number 5 = " + Arithmetic.isPerfectNumber(5));
+        System.out.println("Perfect number -1 = " + Arithmetic.isPerfectNumber(-1));
     }
 }
