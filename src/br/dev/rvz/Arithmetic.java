@@ -62,4 +62,51 @@ public class Arithmetic {
         }
         return count;
     }
+
+    public static void numberToWords(int number) {
+        if (number > 0) {
+            int numeroDigitos = getDigitCount(number);
+            int numeroRevertido = reverse(number);
+            int count = 0;
+            while( numeroRevertido > 0) {
+                count++;
+                int digit = numeroRevertido % 10;
+
+                if (digit == 0) {
+                    System.out.print("Zero ");
+                } else if (digit == 1) {
+                    System.out.print("One ");
+                } else if (digit == 2) {
+                    System.out.print("Two ");
+                } else if (digit == 3) {
+                    System.out.print("Three ");
+                } else if (digit == 4) {
+                    System.out.print("Four ");
+                } else if (digit == 5) {
+                    System.out.print("Five ");
+                } else if (digit == 6) {
+                    System.out.print("Six ");
+                } else if (digit == 7) {
+                    System.out.print("Seven ");
+                } else if (digit == 8) {
+                    System.out.print("Eight ");
+                } else if (digit == 9) {
+                    System.out.print("Nine ");
+                }
+
+                numeroRevertido /= 10;
+            }
+            int numberZeros = numeroDigitos - count;
+            if (numberZeros > 0) {
+                while(numberZeros > 0) {
+                    System.out.print("Zero ");
+                    numberZeros--;
+                }
+            }
+            System.out.println("");
+        } else {
+            System.out.print("Invalid Value");
+        }
+
+    }
 }
