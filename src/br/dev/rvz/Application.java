@@ -71,5 +71,9 @@ public class Application {
         System.out.println("Perfect number 28 = " + Arithmetic.isPerfectNumber(28));
         System.out.println("Perfect number 5 = " + Arithmetic.isPerfectNumber(5));
         System.out.println("Perfect number -1 = " + Arithmetic.isPerfectNumber(-1));
+
+        // teste de números por extens
+        Arithmetic.numberToWords(100000);
+        Arithmetic.numberToWords(25698);
     }
 }
