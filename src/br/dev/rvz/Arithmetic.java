@@ -42,7 +42,7 @@ public class Arithmetic {
     }
 
     public static int reverse(int number) {
-        int revertido;
+        int revertido = 0;
         while(number > 0) {
             revertido = (revertido * 10) + (number % 10);
             number /= 10;
@@ -52,7 +52,7 @@ public class Arithmetic {
 
     public static int getDigitCount(int number) {
         if (number < 0) {
-            return false;
+            return -1;
         }
 
         int count = 0;
