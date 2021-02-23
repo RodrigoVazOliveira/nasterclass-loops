@@ -75,5 +75,7 @@ public class Application {
         // teste de números por extens
         Arithmetic.numberToWords(100000);
         Arithmetic.numberToWords(25698);
+        Arithmetic.numberToWords(0);
+        System.out.println(Arithmetic.getDigitCount(0));
     }
 }
