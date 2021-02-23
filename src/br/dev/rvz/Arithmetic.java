@@ -43,28 +43,38 @@ public class Arithmetic {
 
     public static int reverse(int number) {
         int revertido = 0;
-        while(number > 0) {
-            revertido = (revertido * 10) + (number % 10);
-            number /= 10;
+        if (number < 0) {
+            number = -number;
+            while(number > 0) {
+                revertido = (revertido * 10) + (number % 10);
+                number /= 10;
+            }
+            return -revertido;
+        } else {
+            while(number > 0) {
+                revertido = (revertido * 10) + (number % 10);
+                number /= 10;
+            }
+            return revertido;
         }
-        return revertido;
+
     }
 
     public static int getDigitCount(int number) {
         if (number < 0) {
             return -1;
         }
-
         int count = 0;
-        while (number > 0) {
-            number /= 10;
+
+        do {
             count++;
-        }
+            number /= 10;
+        }while (number > 0);
         return count;
     }
 
     public static void numberToWords(int number) {
-        if (number > 0) {
+        if (number >= 0) {
             int numeroDigitos = getDigitCount(number);
             int numeroRevertido = reverse(number);
             int count = 0;
